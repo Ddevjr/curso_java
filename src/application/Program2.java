@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+import entities.Vetores2Entities;
 
 public class Program2 {
 	public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Program2 {
 		String name = sc.nextLine();
 		System.out.println("Price: ");
 		double price = sc.nextDouble();
-		Product product = new Product(name, price);
+		Vetores2Entities product = new Vetores2Entities(name, price);
 		
 		product.setName("Computer");
 		System.out.println("Updated name: " + product.getName());
